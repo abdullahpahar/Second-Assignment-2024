@@ -1,0 +1,177 @@
+/* Font Collection From Google */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Mulish", sans-serif;
+   
+}
+h1{
+    font-weight: 800;
+    font-size: 2rem;
+    color:rgb(19, 19, 24);
+}
+p{
+    color: #131318;
+}
+.D-color{
+    color:rgb(255, 84, 0);
+}
+.container{
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+header{
+    padding: 50px 0px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.nav-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu ul{
+    display: flex;
+    gap:30px;
+
+}
+.nav-menu ul li{
+    list-style: none;
+   
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color:rgb(66, 66, 71) ;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.nav-menu ul li a:hover{
+     color:rgb(255, 84, 0); 
+   
+}
+.banner-section{
+    background-image:linear-gradient(rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0)), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+   width: 1170px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   margin: 50px 0px;
+   border-radius: 8px;
+
+}
+.banner-section-wrapper{
+    width: 80%;
+   margin: 0 auto;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+.banner-section h1{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 800;
+    margin:20px 0px
+
+}
+
+.banner-section p{
+    color:rgb(255, 255, 255) ;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+.banner-form{
+    background-color: rgba(233, 236, 236, 0.331);
+    border-radius: 10px;
+    margin: 30px 0px;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.point,input,button{
+    padding: 10px ;
+    background-color:rgb(244, 244, 246) ;
+   border:none;
+   outline: none;
+   border-radius: 8px;
+   margin: 30px 0px ;
+   margin-left: 10px;
+
+}
+button{
+
+    padding: 10px 20px;
+    background-color: rgb(255, 84, 0);
+    color:rgb(246, 246, 246);
+}
+i{
+    color:rgb(246, 246, 246);
+    padding: 5px;
+}
+.popular-tour-wrapper{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+   
+}
+.popular-tour-left *{
+    margin-top: 15px;
+}
+.popular-tour-left{
+  flex:1;  
+}
+.popular-tour-left ul{
+  margin-left: 30px;
+  margin: 40px 0px;
+}
+.popular-tour-left button{
+    margin-top: 40px;
+    color:#fff;
+    font-weight: 800;
+    padding: 15px 25px;
+}
+.popular-tour-right{
+    flex:1;
+   padding:  50px 30px;
+   margin: 0px 50px;
+   max-width: 100%;
+}
+  grid-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  }
+  .item1,.item2,.item3{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    
+  }
+  .item1{
+    flex:1;
+  }
+  .item{
+    width: 700px;
+    height:400px;
+  }
