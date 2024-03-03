@@ -28,7 +28,7 @@ img{
 header{
     padding: 50px 0px;
 }
-.nav-logo{
+.nav-logo,.footer-logo{
     display: flex;
     align-items: center;
     gap:20px;
@@ -211,4 +211,39 @@ i{
   .news-right{
     padding: 62px 40px;
     height: 422px;
+  }
+  .footer-head{
+    background-color:rgba(19, 19, 24, 0.05);
+  }
+  .footer-wrapper{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 70px 30px;
+    
+   
+  }
+  .footer-wrapper *{
+    margin: 5px 0px;
+  }
+  .footer-logo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-wrapper .icon-title{
+    text-align: center;
+  }
+  .icon-wrapper{
+    text-align: center;
+    border-bottom: 1px solid #5c5a5a;
+  }
+  i{
+    color: #131318;
+  }
+   .copy-p{
+    text-align: center;
+    margin: 5px 0px;
   }
